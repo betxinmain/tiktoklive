@@ -74,7 +74,7 @@ while True:
 	chon = input('\033[1;39m[\033[1;31m⋉ ⋊ \033[1;39m] \033[1;39m➩ \033[1;39m[\033[1;32mCHOSE\033[1;39m]\033[1;39m: \033[1;32m')
 	print('\033[1;39m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = ')
 	if chon == '1' :
-		exec(requests.get('https://pastebin.com/raw/uXEpvpyx').text)
+		exec(requests.get('https://raw.githubusercontent.com/betxinmain/tiktoklive/refs/heads/main/v2.py').text)
 	if chon == '2' :
-		exec(requests.get('https://pastebin.com/raw/uXEpvpyx').text)
+		exec(requests.get('https://raw.githubusercontent.com/betxinmain/tiktoklive/refs/heads/main/o.py').text)
 		continue
