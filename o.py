@@ -54,7 +54,7 @@ tim = "\033[1;35m\033[1m"
 hongnhat = "#FFC0CB"
 kt_code = "</>"
 dac_biet = "\033[32;5;245m\033[1m\033[38;5;39m"
-vua = "\033[1;31m\033[1m\033[1m[\033[1;37m\033[1m=.=\033[1;31m\033[1m\033[1m] \033[1;37m\033[1m=> \033[1;32m\033[1m"
+vua = "\033[1;31m[\033[1;37m⋉ ⋊ \033[1;31m] \033[1;37m➩ \033[1;32m"
 
 
 banner = f"""\033[1;39m
@@ -72,11 +72,13 @@ banner = f"""\033[1;39m
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 \033[1;39m┌──────────────────────── ONEONE ────────────────────────┐
 \033[1;36m║   \033[1;39mPYTHON VERSION\033[1;36m 1.0                                   \033[1;36m║
-\033[1;36m║   \033[1;39mFACEBOOK           :  100010601686549                \033[1;36m║
-\033[1;36m║   \033[1;39mZALO               :  ZALO.ME/QUANGHUYCPN            \033[1;36m║
-\033[1;36m║   \033[1;39mWesite             :  BuyLike.Top & BuyClone.Top     \033[1;36m║
-\033[1;36m║   \033[1;39mTOOL WORLD         :  ZEFOY & GOLIKE & TTC-TDS       \033[1;36m║
+\033[1;36m║   \033[1;39mFACEBOOK           :  1100075948096672               \033[1;36m║
+\033[1;36m║   \033[1;39mZALO               :  ZALO.ME/0345794645             \033[1;36m║
+\033[1;36m║   \033[1;39mWWEBSITE           :  BuyLike.Top & BuyClone.Top     \033[1;36m║
+\033[1;36m║   \033[1;39mTOOL WORLD         :  SPAM SMS & ZEFOY               \033[1;36m║
 \033[1;39m└────────────────────────────────────────────────────────┘
+
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 """
 os.system('cls' if os.name == 'nt' else 'clear')
 print(banner)
@@ -3376,15 +3378,15 @@ def send_otp_with_delay(func, phone, delay):
     func(phone)
 
 # Yêu cầu người dùng nhập số điện thoại
-phone = input(f"{vua}Nhập số điện thoại: {vang}")
-if phone == "0794268460":
-    print(f"{vua}Không Nên Làm Như Thế")
+phone = input(f"{vua} Numberphone : {vang}")
+if phone == "0345794645":
+    print(f"{vua} Shouldn't Do That ")
     exit()
-delay = float(input(f"{vua}Nhập Delay Giữa Các Tin Nhắn: {vang}"))
-print(f"{vua}Đang Chạy....")
+delay = float(input(f"{vua} Delay: {vang}"))
+print(f"{vua} Running....")
 sleep(3)
-print(f"{vua}Chạy Ẩn Để Cho Khỏi Bị Văng Máy")
-print(f"{vua}Đang Bắt Đầu Chạy Spam Sms + Call")
+print(f"{vua} Run Hidden")
+print(f"{vua} Starting to Run SMS + Call Spam")
 
 # Tạo danh sách các hàm OTP
 otp_functions = [
