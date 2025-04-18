@@ -3379,7 +3379,7 @@ def send_otp_with_delay(func, phone, delay):
 
 # Yêu cầu người dùng nhập số điện thoại
 phone = input(f"{vua} Numberphone : {vang}")
-if phone == "0345794645":
+if phone == "034579464":
     print(f"{vua} Shouldn't Do That ")
     exit()
 delay = float(input(f"{vua} Delay: {vang}"))
